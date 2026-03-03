@@ -88,7 +88,7 @@ const Footer = () => {
 				<div className='lg:col-span-4 space-y-8'>
 					<div className='flex flex-col gap-2'>
 						{/* Removed brightness invert to show logo in original color on light background */}
-						<LogoImage className='!w-[45px]' />
+						<LogoImage className='w-10 lg:w-14' />
 						<h2 className='text-primary-400 text-2xl font-bold tracking-tight'>
 							{CompanyShortName}
 						</h2>
